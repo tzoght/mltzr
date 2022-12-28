@@ -8,9 +8,10 @@ library(dplyr)
 #' @export
 #'
 #' @examples
+#' @export
 print_basic_eda <- function(df) {
   # g <- glimpse(df)
   df |>
-     select_if(is.numeric) |>
+     dplyr::select_if(is.numeric) |>
      summary()
 }
