@@ -7,6 +7,9 @@
 # mltzr
 
 <!-- badges: start -->
+
+[![Codecov test
+coverage](https://codecov.io/gh/tzoght/mltzr/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tzoght/mltzr?branch=main)
 <!-- badges: end -->
 
 The goal of mltzr is to …
