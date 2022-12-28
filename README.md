@@ -1,5 +1,6 @@
 
 [![R-check](https://github.com/tzoght/mltzr/actions/workflows/R-check.yml/badge.svg)](https://github.com/tzoght/mltzr/actions/workflows/R-check.yml)
+[![test-coverage](https://github.com/tzoght/mltzr/actions/workflows/test-coverage.yml/badge.svg)](https://github.com/tzoght/mltzr/actions/workflows/test-coverage.yml)
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
