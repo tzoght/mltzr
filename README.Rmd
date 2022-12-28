@@ -44,20 +44,20 @@ library(mltzr)
 
 First you need to install and use the following libraries in the Consol in R Studio or the Command Line with the R repl:
 
-``` R
+``` r
 library(devtools)
 libary(usethis)
 ```
 
-#### To create a new function 
+#### To create a new function
 
-``` R
+``` r
 usethis::use_r("funcfoo")
 ```
 
 will create a new R file under R/ and prompt you to call the following command to create a new test file
 
-``` R
+``` r
 usethis::use_test("funcfoo")
 ```
 
@@ -69,13 +69,13 @@ usethis::use_test("funcfoo")
 
 In order to list the loaded packages
 
-``` R
+``` r
 devtools::loaded_packages()
 ```
 
 To load the package under development
 
-``` R
+``` r
 devtools::load_all()
 ```
 
@@ -83,13 +83,13 @@ devtools::load_all()
 
 #### To generate docs/man from inline docs
 
-``` R
+``` r
 devtools::document()
 ```
 
 #### To check the overall state
 
-``` R
+``` r
 devtools::check()
 # or to to check specific area
 devtools::check_man()
@@ -99,19 +99,19 @@ devtools::check_man()
 
 #### To run all the tests
 
-``` R
+``` r
 devtools::test()
 ```
 
 To add a dependency on another package
 
-``` R
+``` r
 use_package("dplyr")
 ```
 
 #### To build this README.Rmd
 
-``` R
+``` r
 devtools::build_readme()
 ```
 
@@ -133,18 +133,30 @@ For mltzr:
 
 To select the type of license for your project
 
-``` R
+``` r
 usethis::use_mit_license() # or any other type of licenses
 ```
 
 To initialize testing
 
-``` R
+``` r
 usethis::use_testthat()
 ```
 
 To initialize a Readme for the package
 
-``` R
+``` r
 usethis::use_readme_rmd()
+```
+
+To create a code of conduct file
+
+``` R
+usethis::use_code_of_conduct()
+```
+
+To create a contributing file
+
+``` R
+usethis::use_tidy_contributing()
 ```

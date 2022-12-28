@@ -159,3 +159,15 @@ To initialize a Readme for the package
 ``` r
 usethis::use_readme_rmd()
 ```
+
+To create a code of conduct file
+
+``` r
+usethis::use_code_of_conduct()
+```
+
+To create a contributing file
+
+``` r
+usethis::use_tidy_contributing()
+```
