@@ -1,13 +1,11 @@
 
-[![R-check](https://github.com/tzoght/mltzr/actions/workflows/R-check.yml/badge.svg)](https://github.com/tzoght/mltzr/actions/workflows/R-check.yml)
-[![test-coverage](https://github.com/tzoght/mltzr/actions/workflows/test-coverage.yml/badge.svg)](https://github.com/tzoght/mltzr/actions/workflows/test-coverage.yml)
-
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # mltzr
 
 <!-- badges: start -->
 
+[![R-check](https://github.com/tzoght/mltzr/actions/workflows/R-check.yml/badge.svg)](https://github.com/tzoght/mltzr/actions/workflows/R-check.yml)
 [![Codecov test
 coverage](https://codecov.io/gh/tzoght/mltzr/branch/main/graph/badge.svg)](https://app.codecov.io/gh/tzoght/mltzr?branch=main)
 <!-- badges: end -->
