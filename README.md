@@ -1,4 +1,6 @@
 
+[![R-check](https://github.com/tzoght/mltzr/actions/workflows/R-check.yml/badge.svg?event=public)](https://github.com/tzoght/mltzr/actions/workflows/R-check.yml)
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # mltzr
